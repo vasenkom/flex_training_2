@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+    <title>CSS Backgroung-image 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+       }
+       .menu {
+        width: auto;
+        height: 80px;
+        background-color: beige;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       }
+       .left div, .right div, .logo {
+        background-color: white;
+        padding: 5px;
+       }
+       .left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        flex-direction: row;
+       }
+       .right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        flex-direction: row;
+       }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="left">
+            <div class="one">One</div>
+            <div class="two">Two</div>
+            <div class="three">Three</div>
+        </div>
+        <div class="logo">LOGO</div>
+        <div class="right">
+            <div class="four">Four</div>
+            <div class="five">Five</div>
+            <div class="six">Six</div>
+        </div>
+    </div>
+</body>
+</html>
