@@ -45,6 +45,24 @@
        .footer {
         background-color: #eeeeee;
        }
+       .search {
+        width: 410px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 1px solid #c0c0c0;
+        height: 25px;
+       }
+       .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+       }
+       .submit, .random {
+        background-color: #eeeeee;
+        border: none;
+        border-radius: 8px;
+        padding: 5px;
+       }
     </style>
 </head>
 <body>
@@ -63,8 +81,10 @@
         <div class="content">
             <form>
                 <input type="search" class="search"><br>
-                <input type="submit" class="submit" value="Do the thing!">
-                <input type="button" class="random" value="Random search">
+                <div class="buttons">
+                    <input type="submit" class="submit" value="Do the thing!">
+                    <input type="button" class="random" value="Random search">
+                </div>
             </form>
         </div>
     </div>
