@@ -23,6 +23,47 @@
         display: flex;
         align-items: center;
         padding-left: 16px;
+        padding: 16px;
+       }
+       .main {
+        background-color: #f0ece1;
+        display: flex;
+        flex-direction: row;
+       }
+       .sidebar {
+        width: 300px;
+        background-color: salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+       }
+       .sidebar li {
+        padding: 5px;
+        margin-left: 10px;
+       }
+       .sidebar a {
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        padding: 5px;
+       }
+       .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 32px;
+       }
+       .card {
+        border: 1px solid black;
+        padding: 16px;
+        margin: 16px;
+        width: 300px;
+        height: 250px;
+       }
+       .card h6 {
+        font-size: 19px;
+        margin-bottom: 8px;
        }
        .footer {
         font-size: 15px;
@@ -39,36 +80,36 @@
     <div class="main">
         <div class="sidebar">
             <ul>
-                <li>link one</li>
-                <li>link two</li>
-                <li>link three</li>
-                <li>link four</li>
+                <li><a href="#">Link one</a></li>
+                <li><a href="#">Link two</a></li>
+                <li><a href="#">Link three</a></li>
+                <li><a href="#">Link four</a></li>
             </ul>
         </div>
         <div class="cards">
             <div class="card">
                 <h6>Nature's Serenity</h6>
-                <p>Dive into the tranquility of untouched landscapes with our collection of breathtaking nature photography. From lush forests to majestic mountains, immerse yourself in the beauty of the great outdoors.</p>
+                <p>Dive into the tranquility of untouched landscapes with our collection of breathtaking nature photography.</p>
             </div>
             <div class="card">
                 <h6>Culinary Delights</h6>
-                <p>Indulge your taste buds with our handpicked selection of mouthwatering recipes from around the world. From savory appetizers to delectable desserts, discover new flavors and culinary inspirations.</p>
+                <p>Indulge your taste buds with our handpicked selection of mouthwatering recipes from around the world.</p>
             </div>
             <div class="card">
                 <h6>Artistic Expression</h6>
-                <p>Experience the power of creativity with our curated showcase of contemporary art. Explore diverse mediums and styles, from abstract paintings to striking sculptures.</p>
+                <p>Experience the power of creativity with our curated showcase of contemporary art.</p>
             </div>
             <div class="card">
                 <h6>Adventure Awaits</h6>
-                <p>Embark on thrilling journeys and discover hidden gems with our travel guides. Whether you're seeking adrenaline-pumping activities or serene getaways.</p>
+                <p>Embark on thrilling journeys and discover hidden gems with our travel guides.</p>
             </div>
             <div class="card">
                 <h6>Wellness Wisdom</h6>
-                <p>Nourish your mind, body, and soul with our wellness tips and resources. From yoga practices to mindfulness techniques, prioritize self-care and embark on a journey to holistic well-being.</p>
+                <p>Nourish your mind, body, and soul with our wellness tips and resources.</p>
             </div>
             <div class="card">
                 <h6>Tech Innovations</h6>
-                <p>Stay ahead of the curve with our coverage of the latest technological advancements. From cutting-edge gadgets to groundbreaking innovations, explore the future of technology and its impact on our lives.</p>
+                <p>Stay ahead of the curve with our coverage of the latest technological advancements.</p>
             </div>
         </div>
     </div>
